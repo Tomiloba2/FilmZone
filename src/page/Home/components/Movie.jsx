@@ -7,7 +7,7 @@ const Movies = ({ id,addFavourite }) => {
     const [movielists, setMovieLists] = useState()
     //useEffect(()=>{
     const getMovieLists = async () => {
-        const res = await fetch(`http://www.omdbapi.com/?apikey=263d22d8&i=${id}`)
+        const res = await fetch(`https://www.omdbapi.com/?apikey=263d22d8&i=${id}`)
         const data = await res.json()
         setMovieLists(data)
     }

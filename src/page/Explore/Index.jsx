@@ -10,7 +10,7 @@ const Explore = () => {
 
     useEffect(() => {
         const getMovies = async () => {
-            const res = await fetch(`http://www.omdbapi.com/?s=${search}&apikey=81967c1b&page=1`)
+            const res = await fetch(`https://www.omdbapi.com/?s=${search}&apikey=81967c1b&page=1`)
             const data = await res.json()
             if (data.Search) {
                 setMovies(data.Search)

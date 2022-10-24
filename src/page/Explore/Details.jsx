@@ -9,7 +9,7 @@ const Details = (props) => {
     const { id } = params
     const [item, setItem] = useState()
     const movieDetails = async () => {
-        const res = await fetch(`http://www.omdbapi.com/?apikey=81967c1b&i=${id}`)
+        const res = await fetch(`https://www.omdbapi.com/?apikey=81967c1b&i=${id}`)
         const data = await res.json()
         setItem(data)
     }
