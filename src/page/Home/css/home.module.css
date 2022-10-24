@@ -51,7 +51,7 @@
 .p {
     text-align: center;
     color: white;
-    line-height: 5vw;
+    line-height: 50px;
     letter-spacing: 5px;
     font-family: Franklin Gothic Medium, 'Arial Narrow', 'Arial, sans-serif';
     text-shadow: 5px 5px 5px green;
@@ -73,9 +73,10 @@
     justify-content: center;
     align-items: center;
     color: white;
+    border :3px solid blue;
     font-size: 4ch;
     background-image: linear-gradient(blue,skyblue,purple);
-    border-radius: 10px;
+    border-radius: 10vw;
     box-shadow: inset 2px 2px 5px #babecc,inset -5px -5px 10px #fffff7;
     width: 80%;
     margin: 2vw;

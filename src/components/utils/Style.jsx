@@ -43,7 +43,7 @@ const sidenavImg = {
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     width: '100%',
-    height: '50vh',
+    height: '40vh',
     color: 'white',
     padding: '2vw',
     fontSize: '3ch',
@@ -79,11 +79,10 @@ const grid={
 }
 const fa={
     color:"blue",
+    textAlign:"center"
 }
 const faa={
-    borderRadius:'50%',
-    width:"70%",
-    border:'1px solid blue'
+    width:"100%",
 }
 const input={
     borderRadius:'10px',
