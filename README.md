@@ -16,17 +16,17 @@
 
 ### Installation
     In order to install this project on your localhost, run the following command in your command line terminal
-> git clone https://github.com/Tomiloba2/FilmZone.git
-> npm install
+` $ git clone https://github.com/Tomiloba2/FilmZone.git`
+`$ npm install`
 
 The above commands allow you to clone the project into your computer and install the neccessary dependencies
 
 ### Live preview
-   You can view the livesite by clicking on the link below
+   You can view the livesite by clicking on this link
    [FilmZone](https://)
 
 ## Project dependencies
-    The entire project was built on `create react app` and styled with `CSS`
+    The entire project was built on create react app and styled with CSS
 
 ## Running Test
    You can test the functionality of the site in two different ways
@@ -51,6 +51,6 @@ The above commands allow you to clone the project into your computer and install
 > MIT License
 
 ## Acknowledment
-  I give thanks to everyone that supported the project and will still surpoert it in the future.
+  I give thanks to everyone that supported the project and will still surport it in the future.
   Thank You
 
