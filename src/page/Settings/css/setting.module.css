@@ -1,0 +1,24 @@
+.main{
+    padding: 5vw;
+    text-align: justify;
+}
+.section{
+    margin: 10px;
+}
+.h4{
+    font-size: 3ch;
+    color: blue;
+    text-decoration: underline;
+}
+.ul{
+    list-style: none;
+    margin: 10px;
+}
+.li{
+    padding: 20px;
+}
+.a{
+    text-decoration: none;
+    font-size: 2ch;
+    color:blue
+}

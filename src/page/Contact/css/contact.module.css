@@ -1,0 +1,65 @@
+/*index.css*/
+.main{
+    text-align: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns:2px auto auto 1px;
+    margin: 10px 0;
+}
+.item1,.item2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img{
+    width:100%;
+    height: auto;
+    border-radius: 50%;
+}
+.h3{
+    text-align: center;
+    padding: 1vw;
+    color: #299292;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.inputField{
+    margin: 20px;
+}
+.input{
+    border:1px solid #00f4f4;
+    border-radius: 5px;
+    width:100%;
+    padding: 1vw;
+    text-align: center;
+}
+.input::placeholder{
+    text-align: center;
+    font-weight: 800;
+}
+.submit{
+    background-color: #006666;
+    width: 100%;
+    border: 1px solid #00f4f4;
+    border-radius: 20px;
+    color: white;
+    font-size: 3ch;
+    font-family: algerian;
+}
+.icon{
+    font-size: 50px;
+}
+.error{
+    color:red;
+    text-align: center;
+}
+@media screen and (min-width:50em){
+    .grid{
+        grid-template-columns:10px auto auto 10px;
+        gap:10vw;
+    }
+}

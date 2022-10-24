@@ -1,0 +1,45 @@
+.h3{
+    position: relative;
+    /*top:50%;*/
+    padding-top:10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.icon{
+    color: red;
+    font-size: 50px;
+}
+.main{
+    height: auto;
+    padding:10vw  18vw;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10vw;
+    justify-content: center;
+    align-content: center;
+}
+.img{
+    border: 1px solid grey;
+    padding: 2vw;
+    transform: rotate(30deg);
+    width: 75%;
+}
+.info{
+    padding: 10px;
+}
+.key{
+    font-size: 2ch;
+    font-family: algerian;
+    color: rgb(238, 9, 20);
+}
+@media screen and (min-width:70em) {
+    .main{
+        padding: 5vw 15vw;
+        grid-template-columns: auto auto;
+    }
+    .img{
+        width:100%
+    }
+}

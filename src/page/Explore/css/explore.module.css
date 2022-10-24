@@ -1,0 +1,52 @@
+.main{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    font-family: algerian;
+    color:blue;
+    padding-top: 2vw;
+}
+.input{
+    border:1px solid #034949;
+    border-radius: 5px;
+    width:50%;
+    padding: 1vw;
+    text-align: center;
+    box-shadow: -3px -3px 7px #ffffff73,2px 2px 5px rgba(94,104,121,0.288);
+}
+.grid{
+    margin: 4vw;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    justify-content: center;
+}
+.item{
+    margin: 1vw;
+    transition: ease 0.5s;
+}
+.item:hover{
+    transform: scale(1.1);
+}
+.a{
+    text-decoration: none;
+}
+.img{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 2vw;
+}
+.h4{
+    font-size: 2ch;
+    color:dodgerblue;
+}
+@media screen and (min-width:40em){
+    .grid{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (min-width:60em){
+    .grid{
+        grid-template-columns: auto auto auto auto;
+    }
+}
