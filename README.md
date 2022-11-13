@@ -23,7 +23,7 @@ The above commands allow you to clone the project into your computer and install
 
 ### Live preview
    You can view the livesite by clicking on this link
-   [FilmZone](https://)
+   [FilmZone](https://filmzone.netlify.app)
 
 ## Project dependencies
     The entire project was built on create react app and styled with CSS
@@ -53,4 +53,3 @@ The above commands allow you to clone the project into your computer and install
 ## Acknowledment
   I give thanks to everyone that supported the project and will still surport it in the future.
   Thank You
-

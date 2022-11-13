@@ -3,17 +3,16 @@
 }
 .title{
     font-size: 30px;
-    font-family: algerian;
-    color:blue;
-    padding-top: 2vw;
+    color:white;
+    padding: 2vw;
 }
 .input{
-    border:1px solid #034949;
-    border-radius: 5px;
-    width:50%;
+    outline: none;
+    border: none;
+    border-radius: 20vw;
+    width:40%;
     padding: 1vw;
     text-align: center;
-    box-shadow: -3px -3px 7px #ffffff73,2px 2px 5px rgba(94,104,121,0.288);
 }
 .grid{
     margin: 4vw;
@@ -38,7 +37,7 @@
 }
 .h4{
     font-size: 2ch;
-    color:dodgerblue;
+    color:white
 }
 @media screen and (min-width:40em){
     .grid{

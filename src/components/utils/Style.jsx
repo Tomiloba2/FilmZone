@@ -13,23 +13,23 @@ const navWrapper = {
    // position:'sticky',
     //top:"50px",
     width: '100%',
-    boxShadow: '0px 0px 2px #141414,0px 0px 0px 5px grey,8px 8px 15px #000000,-8px -8px 15px gray',
+    boxShadow: '0px 0px 2px #141414,0px 0px 0px 5px grey,8px 8px 15px #000000,-8px -8px 15px',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     padding:'1vw'
 }
 const icon = {
     display: 'flex',
-    justifyContent: "space-evenly",
+    justifyContent: "space-around",
+    alignItems:'start',
     marginTop: '1vw',
     marginBottom: '1vw',
-    paddingLeft: '0 2vw'
+    paddingLeft: '0 2vw',
 }
 const brandLogo={ /*navbar.jsx explore.jsx*/
-    fontFamily:'algerian',
-    fontSize:'3ch',
+    fontSize:'4ch',
     padding:"1vw",
-    color:'blue'
+    color:'white'
 }
 /*Sidebar.jsx*/
 const sidebarWrapper = {
@@ -65,7 +65,7 @@ const NavLinks = {
     justifyContent: "space-evenly",
     alignItems: 'center',
     textDecoration: 'none',
-    color: 'blue',
+    color: 'white',
     fontSize: '2ch'
 }
 /*footer.jsx*/

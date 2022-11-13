@@ -1,13 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import './components/utils/App.css'
+import Navbar from './components/Layout/Navbar'
 import Footer from './components/Layout/Footer';
-import Navbar from './components/Layout/Navbar';
 import Sidebar from './components/Layout/Sidebar';
 import Contact from './page/Contact/Index';
 import Details from './page/Explore/Details';
 import Explore from './page/Explore/Index';
-import Favourite from './page/Favourite/Favourite';
 import Home from './page/Home/Index';
 import NotFound from './page/NotFound';
 import Setting from './page/Settings/Index';
@@ -19,7 +18,7 @@ import HorrorMovie from './page/Home/page/HorrorMovie';
 import SciFiMovie from './page/Home/page/SciFiMovie';
 
 const App = () => {
-  const [mode, setMode] = useState('light')
+  const [mode, setMode] = useState('dark')
   return (
     <>
       <main className={mode}>
@@ -31,7 +30,7 @@ const App = () => {
             <div>
               <Navbar />
             </div>
-            <div style={{ boxShadow: "inset 2px 2px 5px #babecc,inset -5px -5px 10px #fffff7", margin: '1vw', minHeight: '80vh' }}>
+            <div style={{ boxShadow: "inset 2px 2px 5px #babecc,inset -5px -5px 10px #fffff7", minHeight: '80vh' }}>
               <Routes>
                 <Route path='/' element={<Home />}>
                   <Route index element={<ActionMovie />} />
@@ -40,9 +39,8 @@ const App = () => {
                   <Route path='comedy' element={<ComedyMovie />} />
                   <Route path='horror' element={<HorrorMovie />} />
                   <Route path='scifi' element={<SciFiMovie />} />
+                  <Route path='/explore' element={<Explore />} />
                 </Route>
-                <Route path='/explore' element={<Explore />} />
-                <Route path='/favourite' element={<Favourite />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/setting' element={<Setting mode={mode} setMode={setMode} />} />
                 <Route path='/details/:id' element={<Details />} />

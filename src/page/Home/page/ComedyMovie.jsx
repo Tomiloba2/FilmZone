@@ -1,11 +1,12 @@
 import comedy from './css/movies.module.css'
 import Movies from '../components/Movie'
-
+import { settings } from './js/Setting'
+import Slider from 'react-slick'
 const ComedyMovie = () => {
     return (
         <main className={comedy.a}>
-            <h4 className={comedy.title}>Comedy</h4>
-            <section className={comedy.grid}>
+            <section >
+                <Slider {...settings} className={comedy.grid}>
                 <Movies id='tt0208003' />
                 <Movies id='tt0421729' />
                 <Movies id='tt0117218' />
@@ -14,6 +15,7 @@ const ComedyMovie = () => {
                 <Movies id='tt0096657' />
                 <Movies id='tt0291721' />
                 <Movies id='tt0257106' />
+                </Slider>
             </section>
         </main>
     );
