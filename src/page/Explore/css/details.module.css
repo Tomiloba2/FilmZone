@@ -34,6 +34,11 @@
     font-family: algerian;
     color: rgb(238, 9, 20);
 }
+.back{
+    font-size: 20px;
+    border: 1px solid green;
+}
+
 @media screen and (min-width:70em) {
     .main{
         padding: 5vw 15vw;

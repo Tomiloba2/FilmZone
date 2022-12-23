@@ -1,9 +1,3 @@
-/*Navbar.jsx*/
-/*$b-shadow-card:-3px -3px 7px #ffffff73,2px 2px 5px rgba(94,104,121,0.288);
-$b-shadow-card-2:inset 2px 2px 5px #babecc,inset -5px -5px 10px #fffff7;
-$b-shadow-img:0px 0px 2px #32274b,0px 0px 0px 5px #b2d2eb,8px 8px 15px #81a3dd,-8px -8px 15px #606ac7;
-$b-shadow-img-2:inset 2px 2px 5px #5b637e,inset -1px -1px 2px #4c2dc073;
-*/
 const main={
     position:'sticky',
     top:'50px',
@@ -13,9 +7,9 @@ const navWrapper = {
    // position:'sticky',
     //top:"50px",
     width: '100%',
-    boxShadow: '0px 0px 2px #141414,0px 0px 0px 5px grey,8px 8px 15px #000000,-8px -8px 15px',
+    boxShadow: '0 2px 0 1px grey',
     display: 'flex',
-    justifyContent: 'space-evenly',
+    justifyContent: 'space-between',
     padding:'1vw'
 }
 const icon = {
@@ -72,26 +66,42 @@ const NavLinks = {
 const footer={
     color:'white',
     background:'#141414',
-    boxShadow:'0px 5px 5px 0px gray'
+    //boxShadow:'0px 5px 5px 0px gray'
 }
 const grid={
     textAlign:'center'
 }
 const fa={
-    color:"blue",
-    textAlign:"center"
+    display:"flex",
+    justifyContent:"center",
+    alignItems:'center',
+    width:'100%',
+    color:"white",
+    textAlign:"center",
+    //border:'1px solid white',
+    //borderRadius:"250px",
+    marginTop:'10px'
 }
 const faa={
-    width:"100%",
+    display:"flex",
+    justifyContent:"center",
+    alignItems:'center',
 }
 const input={
     borderRadius:'10px',
-    width:'70%',
-    outline:'none',
-    margin:'0.5vw',
-    padding:'0.5vw',
-    textAlign:'center',
-    border:'none'
+    width:'85%',
+    height:'5vh',
+    marginTop:'10px',
+    border:'1px solid black'
+}
+const submit={
+    color:'white',
+    borderRadius:'10px',
+    width:'75%',
+    height:'5vh',
+    marginTop:'10px',
+    border:'1px solid black',
+    backgroundColor:'green'
 }
 export {
     main,
@@ -102,5 +112,5 @@ export {
     sidenavImg,
     sidebarWrapper,
     ul, li,footer,grid,
-    input,fa,faa
+    input,fa,faa,submit
 }

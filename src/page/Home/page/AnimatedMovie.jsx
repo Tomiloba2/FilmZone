@@ -17,7 +17,7 @@ const AnimatedMovie = () => {
                     <Movies id='tt6859260' />
                 </Slider>
                 <section>
-                    <h4>Recommended for you</h4>
+                    <h4 className={animated.h4}>Recommended for you</h4>
                     <Slider {...settings} className={animated.grid}>
                     <Movies id='tt0447854' />
                     <Movies id='tt0116728' />

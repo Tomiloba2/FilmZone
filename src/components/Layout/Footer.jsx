@@ -1,4 +1,4 @@
-import {footer,grid,ul,input,fa,faa} from '../utils/Style.jsx'
+import {footer,grid,ul,input,fa,faa,submit} from '../utils/Style.jsx'
 
 const Footer = () => {
     return ( 
@@ -7,8 +7,8 @@ const Footer = () => {
                 <article>
                     <h5 style={{fontSize:'2ch',fontFamily:'algerian'}}>About us</h5>
                     <p style={{textAlign:'justify',width:'90%'}}>
-                        We are one of the movie website across the globe.
-                       We are dedicated to giving you the best experience at little to no cost .
+                        We are one of the best movie website,dedicated to giving you 
+                        the best experience at little to no cost .
                     </p>
                 </article>
                 <article>
@@ -26,7 +26,7 @@ const Footer = () => {
                     <form action="">
                         <input type="text" placeholder="enter your name" style={input} required /><br />
                         <input type="email" placeholder="enter your email" style={input}  required /><br />
-                        <input type="submit" value='send' style={input}  />
+                        <input type="submit" value='send' style={submit}  />
                     </form>
                 </article>
             </section>

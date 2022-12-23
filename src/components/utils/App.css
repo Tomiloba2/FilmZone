@@ -17,8 +17,7 @@
 /*sidebar.jsx*/
 .nav-li:hover {
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 0px grey;
-    transform: rotate(10deg);
+    box-shadow: 0px 2px 0px 1px rgb(2, 2, 68);
 }
 
 .active {
@@ -27,8 +26,29 @@
     width: 100%;
     box-shadow: 0px 5px 10px 0px grey;
     transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+/*navbar.jsx*/
+.nav-wrapper{
+    width: 100%;
+    box-shadow: 0 2px 0 1px grey;
+    display: flex;
+    justify-content: space-between;
+    padding:1vw;
+}
+.brandlogo{
+    font-size:4ch;
+    padding:1vw;
+    color:white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 1vw;
+}
 /*footer.jsx*/
 .grid-container {
     display: grid;

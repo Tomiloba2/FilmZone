@@ -19,25 +19,25 @@ const Sidebar = () => {
                 <nav>
                     <ul style={ul}>
                         <li title='Home' style={li} className='nav-li'>
-                            <NavLink to='/' style={NavLinks}>
+                            <NavLink to='/' style={NavLinks} end>
                                 <Home />
                                 <span className='nav-link'>Home</span>
                             </NavLink>
                         </li><br /><br /><br />
                         <li title='Explore' style={li} className='nav-li'>
-                            <NavLink to='/explore' style={NavLinks}>
+                            <NavLink to='/explore' style={NavLinks} end>
                                 <Search />
                                 <span className="nav-link">Explore</span>
                             </NavLink>
                         </li><br /><br /><br />
                         <li title='Contact' style={li} className='nav-li'>
-                            <NavLink to='/contact' style={NavLinks}>
+                            <NavLink to='/contact' style={NavLinks} end>
                                 <Mail />
                                 <span className="nav-link">Contact</span>
                             </NavLink>
                         </li><br /><br /><br />
                         <li title='Setting' style={li} className='nav-li'>
-                            <NavLink to='/setting' style={NavLinks}>
+                            <NavLink to='/setting' style={NavLinks} end>
                                 <Settings />
                                 <span className="nav-link">Setting</span>
                             </NavLink>

@@ -1,13 +1,13 @@
-import { icon, navWrapper, brandLogo,main } from '../utils/Style.jsx'
+import { main } from '../utils/Style.jsx'
 import { Link } from 'react-router-dom'
-import { Search, PlayCircleOutlined, Mail, Settings, Home } from '@mui/icons-material'
+import { Search, Mail, Settings, Home } from '@mui/icons-material'
 
 const Navbar = () => {
     return (
         <main style={main}>
-            <header style={navWrapper}>
-                <h3 style={brandLogo}><PlayCircleOutlined /> Film<span id='logo' style={{ color: 'orange' }}>Zone</span></h3>
-                <div style={icon}>
+            <header className='nav-wrapper'>
+                <h3 className='brandlogo'> Film<span id='logo' style={{ color: 'orange' }}>Zone</span></h3>
+                <div className='icon'>
                     <Link to='/' title='home'>
                         <Home style={{ fontSize: '4ch', color: 'white', marginLeft:'2rem' }} />
                     </Link>

@@ -16,7 +16,7 @@ const AdventureMovie = () => {
                     <Movies id='tt0091369' />
                 </Slider>
                 <section>
-                    <h4>Recommended for you</h4>
+                    <h4 className={adventure.h4}>Recommended for you</h4>
                     <Slider {...settings} className={adventure.grid}>
                         <Movies id='tt0473075' />
                         <Movies id='tt1014759' />

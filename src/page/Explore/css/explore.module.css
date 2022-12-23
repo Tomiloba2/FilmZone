@@ -9,8 +9,9 @@
 .input{
     outline: none;
     border: none;
-    border-radius: 20vw;
-    width:40%;
+    border-radius: 20px;
+    width:85%;
+    height:8vh;
     padding: 1vw;
     text-align: center;
 }
@@ -42,6 +43,10 @@
 @media screen and (min-width:40em){
     .grid{
         grid-template-columns: auto auto auto;
+    }
+
+    .input{
+        width:60%
     }
 }
 @media screen and (min-width:60em){

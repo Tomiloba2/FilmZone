@@ -21,33 +21,33 @@
     margin:20px 1px;
 }
 .input{
-    outline: none;
-    border-radius: 10px;
-    width:100%;
-    padding: 1vw;
-    text-align: left;
-    background-color:#040c19 ;
+    border-radius:8px ;
     border: none;
-    color: white;
-    font-size: 2ch;
-    border-bottom:2px solid blue;
+    width: 75%;
+    height: 8vh;
 }
 .input::placeholder{
-    text-align:left;
-    color: white;
-    font-size: 2ch;
+    text-align:center;
+    color:black;
+    font-size: 3ch;
     font-weight: 800;
 }
+.input:hover{
+    border: 2px dotted black;
+}
+.input:focus{
+    border: 4px dashed black;
+}
 .submit{
-    background-color:white;
-    width: 100%;
+    background-color:rgb(32, 212, 218);
+    width: 50%;
     border-radius: 15px;
-    color: black;
+    color: white;
     height: 6vh;
-    font-size: 3ch;
+    font-size: 2ch;
 }
 .icon{
-    font-size: 40px;
+    font-size: 5px;
 }
 .error{
     color:red;
@@ -57,5 +57,13 @@
     .grid{
         grid-template-columns:auto auto;
         gap:10vw;
+    }
+    .input{
+        width: 140%;
+    }
+}
+@media screen and (min-width:60em){
+    .input{
+        width:100%
     }
 }

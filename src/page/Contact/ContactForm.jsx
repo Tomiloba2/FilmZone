@@ -15,11 +15,11 @@ const ContactForm = ({ contact }) => {
                         onChange={handleChange} className={contact.input} required />
                 </div>
                 <div className={contact.inputField}>
-                    <input type="" name="email" placeholder="Your email" value={formValues.email}
+                    <input type="email" name="email" placeholder="Your email" value={formValues.email}
                         onChange={handleChange} className={contact.input} required />
                 </div>
                 <div className={contact.inputField}>
-                    <textarea name="message" placeholder="How do you feel about us" value={formValues.message}
+                    <textarea name="message" placeholder="Your Feedback" value={formValues.message}
                         onChange={handleChange} className={contact.input} required />
                 </div>
                 <div className={contact.inputField}>

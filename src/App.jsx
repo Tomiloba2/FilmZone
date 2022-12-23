@@ -30,7 +30,7 @@ const App = () => {
             <div>
               <Navbar />
             </div>
-            <div style={{ boxShadow: "inset 2px 2px 5px #babecc,inset -5px -5px 10px #fffff7", minHeight: '80vh' }}>
+            <div style={{ minHeight: '80vh' }}>
               <Routes>
                 <Route path='/' element={<Home />}>
                   <Route index element={<ActionMovie />} />

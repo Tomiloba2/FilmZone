@@ -1,5 +1,5 @@
 import { Search } from "@mui/icons-material";
-import {NavLink, Outlet } from "react-router-dom";
+import {Link, Outlet } from "react-router-dom";
 import home from './css/home.module.css'
 import Slider from "react-slick";
 const Home = () => {
@@ -8,14 +8,14 @@ const Home = () => {
         infinite: false,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
@@ -23,16 +23,16 @@ const Home = () => {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 3,
+              slidesToScroll: 1,
               initialSlide: 2
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToShow: 3,
+              slidesToScroll: 2
             }
           }
         ]
@@ -40,9 +40,9 @@ const Home = () => {
     return (
         <main>
             <section className={home.article}>
-                <NavLink to='/explore' className={home.search}>
+                <Link to='/explore' className={home.search}>
                     <Search />
-                </NavLink>
+                </Link>
             </section>
             <section>
                 <h4 className={home.p}>Movie Categories</h4>
@@ -51,58 +51,58 @@ const Home = () => {
                 <div></div>
                 <Slider {...settings} className={home.slide}>
                     <section className={home.link}>
-                        <NavLink to='/'>
+                        <Link to='/'>
                             <h4 className={home.linkH4}>action</h4>
                             <p className={home.linkH4}>1635 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/adventure'>
+                        <Link to='/adventure'>
                             <h4 className={home.linkH4}>adventure</h4>
                             <p className={home.linkH4}>2435 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/scifi'>
+                        <Link to='/scifi'>
                             <h4 className={home.linkH4}>sci-fi</h4>
                             <p className={home.linkH4}>1435 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/horror'>
+                        <Link to='/horror'>
                             <h4 className={home.linkH4}>horror</h4>
                             <p className={home.linkH4}>1435 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/animated'>
+                        <Link to='/animated'>
                             <h4 className={home.linkH4}>animated</h4>
                             <p className={home.linkH4}>4435 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/comedy'>
+                        <Link to='/comedy'>
                             <h4 className={home.linkH4}>comedy</h4>
                             <p className={home.linkH4}>1031 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/comedy'>
+                        <Link to='/comedy'>
                             <h4 className={home.linkH4}>Romance</h4>
                             <p className={home.linkH4}>1031 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/comedy'>
+                        <Link to='/comedy'>
                             <h4 className={home.linkH4}>Mystery</h4>
                             <p className={home.linkH4}>1031 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
                     <section className={home.link}>
-                        <NavLink to='/comedy'>
+                        <Link to='/comedy'>
                             <h4 className={home.linkH4}>short</h4>
                             <p className={home.linkH4}>1031 movies</p>
-                        </NavLink>
+                        </Link>
                     </section>
 
                 </Slider>
